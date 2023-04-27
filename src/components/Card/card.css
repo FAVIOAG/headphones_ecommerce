@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+   
+}
+.card .product{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+.card .product .imagen {
+    border-radius: 10px;
+}
+.card .product .imagen img {
+    display: flex;
+    align-items: center;
+   
+}
+
+.card .product .data {
+    display: flex;
+    justify-content: space-between;
+    font-weight:500;
+    margin: 4px;
+}
+.card .product .data .title{
+    margin: 0;
+}
+.card .product .data .price{
+    margin: 0;
+}
+.card .product .descripte {
+    margin: 2px;
+    font-size: small;
+}
+.card .add {
+    margin: 2px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+}
